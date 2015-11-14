@@ -73,7 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Completed.cs" />
+    <Compile Include="Completed.specs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
