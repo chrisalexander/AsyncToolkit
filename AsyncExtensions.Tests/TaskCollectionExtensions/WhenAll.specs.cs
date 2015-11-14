@@ -36,7 +36,10 @@ namespace AsyncExtensions.Tests.TaskCollectionExtensions
                 });
 
             "When we request an overall task"
-                ._(() => allTask = tasks.WhenAll());
+                ._(() =>
+                {
+                    allTask = tasks.WhenAll();
+                });
 
             "Then the task should not be complete yet"
                 ._(() => allTask.IsCompleted.Should().BeFalse());
