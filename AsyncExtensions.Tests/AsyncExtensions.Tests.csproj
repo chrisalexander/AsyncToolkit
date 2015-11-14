@@ -75,6 +75,7 @@
   <ItemGroup>
     <Compile Include="Completed.specs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskCollectionExtensions\WhenAll.specs.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AsyncExtensions\AsyncExtensions.csproj">
