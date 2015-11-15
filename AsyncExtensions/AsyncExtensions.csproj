@@ -39,6 +39,8 @@
     <DocumentationFile>bin\Release\AsyncExtensions.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="AsyncExtensions.nuget.props" />
+    <None Include="AsyncExtensions.nuspec" />
     <None Include="project.json" />
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AsyncExtensions</id>
+    <version>1.0.0.0</version>
+    <title>AsyncExtensions</title>
+    <authors>Chris Alexander</authors>
+    <owners>Chris Alexander</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://chrisalexander.visualstudio.com/DefaultCollection/AsyncToolkit</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A collection of extensions for asynchronous programming.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>async await extensions</tags>
+  </metadata>
+  <files>
+    <file src="bin\*\AsyncExtensions.dll" target="lib" />
+  </files>
+</package>
